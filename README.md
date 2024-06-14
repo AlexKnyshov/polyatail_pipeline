@@ -1,9 +1,6 @@
----
-title: "POLY(A) PIPELINE WORKFLOW"
-author: "Sasha Bacot, modified by Alexander Knyshov"
-date: 'summer 2023'
-output: html_document
----
+#POLY(A) PIPELINE WORKFLOW
+Sasha Bacot, modified by Alexander Knyshov
+summer 2023
 
 ## Pipeline workflow
 list of samples used for array job setup on an SGE cluster: `samples.txt`
