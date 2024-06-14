@@ -78,7 +78,7 @@ count_exp_genes[is.na(count_exp_genes)] <- 0
 exp_gene_distances <- gene_distances[rowSums(!is.na(gene_distances)) > 0, ]
 
 #import total read counts for scaling to CPM
-counts <- read.csv("/restricted/projectnb/amp-ad/sbacot/PolyA/final_outputs/readcounts.csv")
+counts <- read.csv("final_outputs/readcounts.csv")
 counts$mil <- (counts$count/1000000)/2
 cpm_exp_genes <- count_exp_genes
 for (i in 1:length(count_exp_genes[1,])) {
