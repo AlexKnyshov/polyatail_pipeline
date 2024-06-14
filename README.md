@@ -1,5 +1,7 @@
-#POLY(A) PIPELINE WORKFLOW
+# POLY(A) PIPELINE WORKFLOW
+
 Sasha Bacot, modified by Alexander Knyshov
+
 summer 2023
 
 ## Pipeline workflow
